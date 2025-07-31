@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //QUESTION -: Design a function that removes duplicate elements from the array of n integers c language.
 
 #include<stdio.h>
@@ -45,7 +44,6 @@ int main()
  }
  
  return 0;
-=======
 //QUESTION -: Design a function that removes duplicate elements from the array of n integers c language.
 
 #include<stdio.h>
@@ -92,5 +90,4 @@ int main()
  }
  
  return 0;
->>>>>>> 31961d9b0df3f4262484e372eeebe0dcda5e559b
 }
