@@ -1,14 +1,12 @@
 //QUESTION : Find the second and third largest number in a array.
 
 #include<stdio.h>
-#include<conio.h>
+#include<limits.h>
 
-void main()
+int main()
 {
  int n,arr[100];
  int i,fmax,smax,tmax;
-
- clrscr();
 
  printf("Enter no. of elements :");
  scanf("%d",&n);
@@ -18,23 +16,26 @@ void main()
   scanf("%d",&arr[i]);
  }
 
- fmax=smax=arr[0];
+ fmax=smax=tmax=INT_MIN;
  for(i=0;i<n;i++)
  {
 
   if (fmax<arr[i])
   {
-   fmax=arr[i];
+    tmax = smax;
+    smax = fmax;
+    fmax = arr[i];
   }
 
   else if (smax<arr[i] && arr[i]<fmax)
   {
-   smax=arr[i];
+    tmax = smax;
+    smax = arr[i];
   }
 
   else if(tmax<arr[i] && arr[i]<smax)
   {
-   tmax=arr[i];
+    tmax=arr[i];
   }
  }
 
@@ -42,5 +43,5 @@ void main()
  printf("Second Largest no. in Array :%d\n",smax);
  printf("Third Largest no. in Array:%d\n",tmax);
 
- getch();
+ return 0;
 }
