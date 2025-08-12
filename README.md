@@ -23,3 +23,11 @@ These implementations are meant for learning, practice, and quick reference.
 ## 1. [ARRAYS3.C](PART-01/ARRAYS3.C)
 **Output:**
 ![ARRAYS1 Output](outputs/ARRAY-03.png)
+
+---
+
+## 1. [ARRAYS3.C](PART-01/ARRAYS4.C)
+**Output:**
+![ARRAYS1 Output](outputs/ARRAY-04.png)
+
+---
