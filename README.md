@@ -1,9 +1,12 @@
-# 📂 PART-01 – Arrays Programs
+# 📚 DSA Programs
 
-This folder contains C programs related to arrays. Each program has a direct link to its code and a screenshot of its output.
+This repository contains my solutions to various Data Structures and Algorithms problems, implemented in C.  
+The programs are organized by topic, and each file demonstrates a specific concept with clear and concise code.  
+These implementations are meant for learning, practice, and quick reference.
 
 ---
 
+## 📂 PART-01 – Arrays
 ## 1. [ARRAYS1.C](PART-01/ARRAYS1.C)
-**Output Screenshot:**
+**Output:**
 ![ARRAYS1 Output](outputs/ARRAY-01.png)
