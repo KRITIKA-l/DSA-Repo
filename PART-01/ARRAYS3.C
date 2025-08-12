@@ -1,10 +1,10 @@
-// QUESTION :- Search the given element in the arrray and print the location/position of the element.
+// QUESTION :- Removes duplicate elements from the array and also print position of duplicates
 
 #include<stdio.h>
 
 int main()
 {
-    int arr[100],n,target;
+    int arr[100],s[100],n,flag,m=0;
 
     printf("Enter no. of elements : ");
     scanf("%d",&n);
@@ -13,15 +13,28 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    printf("Enter Element to search : ");
-    scanf("%d",&target);
-
     for(int i=0;i<n;i++)
     {
-        if (arr[i]==target)
+        flag=0;
+        for(int j=i+1;j<n;j++)
         {
-            printf("Target %d found at %d .",target,i+1);
+            if (arr[i]==arr[j])
+            {
+                printf("Duplicate of element %d found at %d .\n",arr[i],j+1);
+                flag = 1;
+                break;
+            }
         }
+        if (!flag)
+        {
+            s[m]=arr[i];
+            m++;
+        }
+    }
+    printf("ARRAY : ");
+    for(int i=0;i<m;i++)
+    {
+        printf("%d ",s[i]);
     }
     return 0;
 }

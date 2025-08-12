@@ -1,47 +1,27 @@
-//QUESTION -: Design a function that removes duplicate elements from the array of n integers c language.
+// QUESTION :- Search the given element in the arrray and print the location/position of the element.
 
 #include<stdio.h>
 
-int removeduplicate(int arr[],int n)
-{
-  for(int i=0;i<n;i++)
-  {
-   for(int j=i+1;j<n;j++)
-   {
-    if(arr[i]==arr[j])
-    {
-     for(int k=j;k<n-1;k++)
-     {
-      arr[k]=arr[k+1];
-     }
-     n--;
-     j--;
-    }
-   }
-  }
-  return n;
-}
-
 int main()
 {
- int arr[100],n,i;
+    int arr[100],n,target;
 
- printf("Enter no. of elements:");
- scanf("%d",&n);
+    printf("Enter no. of elements : ");
+    scanf("%d",&n);
+    printf("Enter elements : ");
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    printf("Enter Element to search : ");
+    scanf("%d",&target);
 
- printf("Enter %d elements:",n);
- for(i=0;i<n;i++)
- {
-  scanf("%d",&arr[i]);
- }
-
- n=removeduplicate(arr,n);
-
- printf("Array after removing duplicates:\n");
- for(i=0;i<n;i++)
- {
-  printf("%d ",arr[i]);
- }
- 
- return 0;
+    for(int i=0;i<n;i++)
+    {
+        if (arr[i]==target)
+        {
+            printf("Target %d found at %d.\n",target,i+1);
+        }
+    }
+    return 0;
 }
