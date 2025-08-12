@@ -14,19 +14,19 @@ These implementations are meant for learning, practice, and quick reference.
 
 ---
 
-## 1. [ARRAYS2.C](PART-01/ARRAYS2.C)
+## 1. [ARRAYS-02.C](PART-01/ARRAYS2.C)
 **Output:**
 ![ARRAYS1 Output](outputs/ARRAY-02.png)
 
 ---
 
-## 1. [ARRAYS4.C](PART-01/ARRAYS4.C)
+## 1. [ARRAYS-03.C](PART-01/ARRAYS3.C)
 **Output:**
 ![ARRAYS1 Output](outputs/ARRAY-03.png)
 
 ---
 
-## 1. [ARRAYS3.C](PART-01/ARRAYS4.C)
+## 1. [ARRAYS-04.C](PART-01/ARRAYS4.C)
 **Output:**
 ![ARRAYS1 Output](outputs/ARRAY-04.png)
 
