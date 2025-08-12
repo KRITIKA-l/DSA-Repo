@@ -6,4 +6,4 @@ This folder contains C programs related to arrays. Each program has a direct lin
 
 ## 1. [ARRAYS1.C](PART-01/ARRAYS1.C)
 **Output Screenshot:**
-![ARRAYS1 Output](PART-01/outputs/ARRAY-01.png)
+![ARRAYS1 Output](outputs/ARRAY-01.png)
