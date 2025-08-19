@@ -8,18 +8,26 @@ These implementations are meant for learning, practice, and quick reference.
 
 ## 📂 PART-01 – Arrays
 
-## 1. [ARRAYS1.C](PART-01/ARRAYS1.C)
+## 1. [ARRAYS-01.C](PART-01/ARRAYS1.C)
 **Output:**
 ![ARRAYS1 Output](outputs/ARRAY-01.png)
 
 ---
 
-## 1. [ARRAYS2.C](PART-01/ARRAYS2.C)
+## 2. [ARRAYS-02.C](PART-01/ARRAYS2.C)
 **Output:**
 ![ARRAYS1 Output](outputs/ARRAY-02.png)
 
 ---
 
-## 1. [ARRAYS3.C](PART-01/ARRAYS3.C)
+## 3. [ARRAYS-03.C](PART-01/ARRAYS3.C)
 **Output:**
 ![ARRAYS1 Output](outputs/ARRAY-03.png)
+
+---
+
+## 4. [ARRAYS-04.C](PART-01/ARRAYS4.C)
+**Output:**
+![ARRAYS1 Output](outputs/ARRAY-04.png)
+
+---
