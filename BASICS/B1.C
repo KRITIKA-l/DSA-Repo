@@ -17,4 +17,5 @@ int main()
     }
     rev = rev *sign;
     printf("Reversed Number : %d",rev);
+    return 0;
 }
