@@ -1,4 +1,4 @@
-//QUESTION : Find the second and third largest number in a array.
+//QUESTION :- Find the second and third largest number in a array.
 
 #include<stdio.h>
 #include<limits.h>
