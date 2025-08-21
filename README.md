@@ -1,33 +1,35 @@
-# 📚 DSA Programs
+# C Programs Repository  
 
-This repository contains my solutions to various Data Structures and Algorithms problems, implemented in C.  
-The programs are organized by topic, and each file demonstrates a specific concept with clear and concise code.  
-These implementations are meant for learning, practice, and quick reference.
-
----
-
-## 📂 PART-01 – Arrays
-
-## 1. [ARRAYS-01.C](PART-01/ARRAYS1.C)
-**Output:**
-![ARRAYS1 Output](outputs/ARRAY-01.png)
+This repository contains a collection of **C programming exercises** organized into categories such as **Basics** and **Arrays**.  
+Each program includes its **source code (.c)**, **compiled executable (.exe)**, and the **output screenshot (.png)** for easy reference.  
 
 ---
 
-## 2. [ARRAYS-02.C](PART-01/ARRAYS2.C)
-**Output:**
-![ARRAYS1 Output](outputs/ARRAY-02.png)
+## 📝 Program List  
+
+### 🔹 BASICS  
+| Program | Source Code | Executable | Output |
+|---------|-------------|------------|--------|
+| Count occurrence of digits in a number | [OccurenceCount.c](./BASICS/OccurenceCount.c) | [OccurenceCount.exe](./BASICS/OccurenceCount.exe) | ![Output](./BASICS/OUTPUTS/OccurenceCount.png) |
+| Reverse an array | [ReverseArray.c](./BASICS/ReverseArray.c) | [ReverseArray.exe](./BASICS/ReverseArray.exe) | ![Output](./BASICS/OUTPUTS/ReverseArray.png) |
+| Reverse a number | [ReverseNum.c](./BASICS/ReverseNum.c) | [ReverseNum.exe](./BASICS/ReverseNum.exe) | ![Output](./BASICS/OUTPUTS/ReverseNum.png) |
+| Reverse a string | [ReverseString.c](./BASICS/ReverseString.c) | [ReverseString.exe](./BASICS/ReverseString.exe) | ![Output](./BASICS/OUTPUTS/ReverseString.png) |
 
 ---
 
-## 3. [ARRAYS-03.C](PART-01/ARRAYS3.C)
-**Output:**
-![ARRAYS1 Output](outputs/ARRAY-03.png)
+### 🔹 ARRAYS  
+| Program | Source Code | Executable | Output |
+|---------|-------------|------------|--------|
+| Find largest number in array | [LargestNums.c](./ARRAYS/LargestNums.c) | [LargestNums.exe](./ARRAYS/LargestNums.exe) | ![Output](./ARRAYS/OUTPUTS/LargestNums.png) |
+| Quick Sort implementation | [QuickSort.c](./ARRAYS/QuickSort.c) | [QuickSort.exe](./ARRAYS/QuickSort.exe) | ![Output](./ARRAYS/OUTPUTS/QuickSort.png) |
+| Remove duplicates from array | [RemoveDuplicates.c](./ARRAYS/RemoveDuplicates.c) | [RemoveDuplicates.exe](./ARRAYS/RemoveDuplicates.exe) | ![Output](./ARRAYS/OUTPUTS/RemoveDuplicates.png) |
+| Search element in array | [SearchElement.c](./ARRAYS/SearchElement.c) | [SearchElement.exe](./ARRAYS/SearchElement.exe) | ![Output](./ARRAYS/OUTPUTS/SearchElement.png) |
 
 ---
 
-## 4. [ARRAYS-04.C](PART-01/ARRAYS4.C)
-**Output:**
-![ARRAYS1 Output](outputs/ARRAY-04.png)
+## ⚙️ How to Run  
 
----
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/YourUsername/YourRepoName.git
+   cd YourRepoName
