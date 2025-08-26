@@ -1,3 +1,5 @@
+// QUESTION :- Find the sum of all the subsets of the array.
+
 #include <stdio.h>
 
 void sumOfSubsets(int arr[], int n) 
