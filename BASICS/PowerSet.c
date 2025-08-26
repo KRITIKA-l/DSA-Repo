@@ -1,3 +1,4 @@
+// QUESTION :- Find the Powerset of the elements of the array. 
 
 #include <stdio.h>
 
