@@ -32,6 +32,7 @@ Each program includes its **source code (.c)**, **compiled executable (.exe)**, 
 | Search element in array | [SearchElement.c](./DATA%20STRUCTURES/ARRAYS/SearchElement.c) | ![Output](./DATA%20STRUCTURES/ARRAYS/OUTPUTS/SearchElement.png) |
 
 ---
+<img src="./DATA%20STRUCTURES/STACKS/OUTPUTS/Stack1.png" width="200"/> <img src="./DATA%20STRUCTURES/STACKS/OUTPUTS/Stack2.png" width="200"/>
 
 ### 🔹 STACKS 
 | Program | Source Code | Output |
