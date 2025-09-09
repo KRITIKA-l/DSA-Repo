@@ -32,12 +32,11 @@ Each program includes its **source code (.c)**, **compiled executable (.exe)**, 
 | Search element in array | [SearchElement.c](./DATA%20STRUCTURES/ARRAYS/SearchElement.c) | ![Output](./DATA%20STRUCTURES/ARRAYS/OUTPUTS/SearchElement.png) |
 
 ---
-<img src="./DATA%20STRUCTURES/STACKS/OUTPUTS/Stack1.png" width="200"/> <img src="./DATA%20STRUCTURES/STACKS/OUTPUTS/Stack2.png" width="200"/>
 
 ### 🔹 STACKS 
 | Program | Source Code | Output |
 |---------|-------------|--------|
-| Implement a Stack using Array | [Stack.c](./DATA%20STRUCTURES/STACKS/Stack.c) | ![Output1](./DATA%20STRUCTURES/STACKS/OUTPUTS/Stack1.png)&nbsp; ![Output2](./DATA%20STRUCTURES/STACKS/OUTPUTS/Stack2.png) |
+| Implement a Stack using Array | [Stack.c](./DATA%20STRUCTURES/STACKS/Stack.c) | ![Output1](<img src="./DATA%20STRUCTURES/STACKS/OUTPUTS/Stack1.png" width="200"/>) ![Output2](<img src="./DATA%20STRUCTURES/STACKS/OUTPUTS/Stack2.png" width="200"/>) |
 | Infix To Postfix using Stacks | [InfixToPostfix.c](./DATA%20STRUCTURES/STACKS/InfixToPostfix.c) | ![Output](./DATA%20STRUCTURES/STACKS/OUTPUTS/InfixToPostfix.png) |
 
 ---
