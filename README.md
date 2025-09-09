@@ -36,7 +36,7 @@ Each program includes its **source code (.c)**, **compiled executable (.exe)**, 
 ### 🔹 STACKS 
 | Program | Source Code | Output |
 |---------|-------------|--------|
-| Implement a Stack using Array | [Stack.c](./DATA%20STRUCTURES/STACKS/Stack.c) | ![Output1](./DATA%20STRUCTURES/STACKS/OUTPUTS/Stack1.png) ![Output2](./DATA%20STRUCTURES/STACKS/OUTPUTS/Stack2.png) |
+| Implement a Stack using Array | [Stack.c](./DATA%20STRUCTURES/STACKS/Stack.c) | ![Output1](./DATA%20STRUCTURES/STACKS/OUTPUTS/Stack1.png)&nbsp; ![Output2](./DATA%20STRUCTURES/STACKS/OUTPUTS/Stack2.png) |
 | Infix To Postfix using Stacks | [InfixToPostfix.c](./DATA%20STRUCTURES/STACKS/InfixToPostfix.c) | ![Output](./DATA%20STRUCTURES/STACKS/OUTPUTS/InfixToPostfix.png) |
 
 ---
