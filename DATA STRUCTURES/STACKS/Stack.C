@@ -1,9 +1,11 @@
-#include<stdio.h>
-#include<stdbool.h>
+// QUESTION :- WAP to implement a stack using arrays with the following operations:
+// Push, Pop, Peek, Display, handle Overflow and Underflow.
 
+#include<stdio.h>
 #define Max_Size 20
 
-typedef struct{
+typedef struct
+{
     int arr[Max_Size];
     int top;
 } stack;

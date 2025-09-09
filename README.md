@@ -26,10 +26,18 @@ Each program includes its **source code (.c)**, **compiled executable (.exe)**, 
 ### 🔹 ARRAYS  
 | Program | Source Code | Output |
 |---------|-------------|--------|
-| Find largest number in array | [LargestNums.c](./ARRAYS/LargestNums.c) | ![Output](./ARRAYS/OUTPUTS/LargestNums.png) |
-| Quick Sort implementation | [QuickSort.c](./ARRAYS/QuickSort.c) | ![Output](./ARRAYS/OUTPUTS/QuickSort.png) |
-| Remove duplicates from array | [RemoveDuplicates.c](./ARRAYS/RemoveDuplicates.c) | ![Output](./ARRAYS/OUTPUTS/RemoveDuplicates.png) |
-| Search element in array | [SearchElement.c](./ARRAYS/SearchElement.c) | ![Output](./ARRAYS/OUTPUTS/SearchElement.png) |
+| Find largest number in array | [LargestNums.c](./DATA%20STRUCTURES/ARRAYS/LargestNums.c) | ![Output](./DATA%20STRUCTURES/ARRAYS/OUTPUTS/LargestNums.png) |
+| Quick Sort implementation | [QuickSort.c](./DATA%20STRUCTURES/ARRAYS/QuickSort.c) | ![Output](./DATA%20STRUCTURES/ARRAYS/OUTPUTS/QuickSort.png) |
+| Remove duplicates from array | [RemoveDuplicates.c](./DATA%20STRUCTURES/ARRAYS/RemoveDuplicates.c) | ![Output](./DATA%20STRUCTURES/ARRAYS/OUTPUTS/RemoveDuplicates.png) |
+| Search element in array | [SearchElement.c](./DATA%20STRUCTURES/ARRAYS/SearchElement.c) | ![Output](./DATA%20STRUCTURES/ARRAYS/OUTPUTS/SearchElement.png) |
+
+---
+
+### 🔹 STACKS 
+| Program | Source Code | Output |
+|---------|-------------|--------|
+| Implement a Stack using Array | [Stack.c](./DATA%20STRUCTURES/STACKS/Stack.c) | ![Output1](./DATA%20STRUCTURES/STACKS/OUTPUTS/Stack1.png) ![Output2](./DATA%20STRUCTURES/STACKS/OUTPUTS/Stack2.png) |
+| Infix To Postfix using Stacks | [InfixToPostfix.c](./DATA%20STRUCTURES/STACKS/InfixToPostfix.c) | ![Output](./DATA%20STRUCTURES/STACKS/OUTPUTS/InfixToPostfix.png) |
 
 ---
 
