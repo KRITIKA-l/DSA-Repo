@@ -41,6 +41,13 @@ Each program includes its **source code (.c)**, **compiled executable (.exe)**, 
 
 ---
 
+### 🔹 LINKED LIST
+| Program | Source Code | Output |
+|---------|-------------|--------|
+| Make linked list of 5 nodes and display them | [Insertion.c](./DATA%20STRUCTURES/LINKED%20LIST/Insertion.c) | ![Output](./DATA%20STRUCTURES/LINKED%20LIST/OUTPUTS/Insertion.png) |
+
+---
+
 ## ⚙️ How to Run  
 
 1. Clone the repository  
