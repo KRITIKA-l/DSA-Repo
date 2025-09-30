@@ -37,41 +37,6 @@ void insertatend(int data)
     temp -> next = new_node;
 }
 
-void insertatposition(int data, int position)
-{
-    struct node *new_node = (struct node*)malloc(sizeof(struct node));
-    new_node->data = data;
-    new_node->next = NULL;
-
-    if (position == 1)
-    {
-        new_node->next = head;
-        head = new_node;
-        return;
-    }
-
-    int count = 1;
-    struct node *temp = head;
-
-     while (temp != NULL && count < position - 1)
-    {
-        temp = temp->next;
-        count++;
-    }
-
-    if (temp == NULL)
-    {
-        printf("Position is beyond the length of the list. Inserting at the end.\n");
-        insertatend(data);
-        free(new_node);  
-        return;
-    }
-
-    new_node->next = temp->next;
-    temp->next = new_node;
-}
-
-
 void insertatpositionbefore(int data, int position)
 {
     struct node *new_node = (struct node*)malloc(sizeof(struct node));
@@ -87,11 +52,9 @@ void insertatpositionbefore(int data, int position)
 
     int count = 1;
     struct node *temp = head;
-    struct node *prev = NULL;
 
     while (temp != NULL && count < position - 1)
     {
-        prev = temp;
         temp = temp->next;
         count++;
     }
@@ -104,11 +67,8 @@ void insertatpositionbefore(int data, int position)
         return;
     }
 
-    new_node->next = temp;
-    if (prev != NULL)
-    {
-        prev->next = new_node;
-    }
+    new_node->next = temp -> next;
+    temp->next = new_node;
 }
 
 
@@ -166,22 +126,62 @@ void printList()
     printf("NULL\n");
 }
 
-int main()
+int main() 
 {
-    insertAtBeginning(50); 
-    insertAtBeginning(40); 
-    insertAtBeginning(30); 
-    insertAtBeginning(20); 
-    insertAtBeginning(10);
+    int choice, data, position;
 
-    insertatend(60);
-    insertatend(70);
+    while (1) {
+        printf("\n------ Linked List Menu ------\n");
+        printf("1. Insert at Beginning\n");
+        printf("2. Insert at End\n");
+        printf("3. Insert Before Position\n");
+        printf("4. Insert After Position\n");
+        printf("5. Display List\n");
+        printf("0. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
 
-    // insertatposition(15,2);
-    // insertatpositionbefore(25,3);
-    insertatpositionafter(35,3);
+        switch (choice) {
+            case 1:
+                printf("Enter data to insert at beginning: ");
+                scanf("%d", &data);
+                insertAtBeginning(data);
+                break;
 
-    printList();
+            case 2:
+                printf("Enter data to insert at end: ");
+                scanf("%d", &data);
+                insertatend(data);
+                break;
+
+            case 3:
+                printf("Enter data: ");
+                scanf("%d", &data);
+                printf("Enter position to insert before: ");
+                scanf("%d", &position);
+                insertatpositionbefore(data, position);
+                break;
+
+            case 4:
+                printf("Enter data: ");
+                scanf("%d", &data);
+                printf("Enter position to insert after: ");
+                scanf("%d", &position);
+                insertatpositionafter(data, position);
+                break;
+
+            case 5:
+                printList();
+                break;
+
+            case 0:
+                printf("Exiting program.\n");
+                exit(0);
+
+            default:
+                printf("Invalid choice. Please try again.\n");
+        }
+    }
 
     return 0;
 }
