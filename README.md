@@ -30,6 +30,8 @@ Each program includes its **source code (.c)**, **compiled executable (.exe)**, 
 | Quick Sort implementation | [QuickSort.c](./DATA%20STRUCTURES/ARRAYS/QuickSort.c) | ![Output](./DATA%20STRUCTURES/ARRAYS/OUTPUTS/QuickSort.png) |
 | Remove duplicates from array | [RemoveDuplicates.c](./DATA%20STRUCTURES/ARRAYS/RemoveDuplicates.c) | ![Output](./DATA%20STRUCTURES/ARRAYS/OUTPUTS/RemoveDuplicates.png) |
 | Search element in array | [SearchElement.c](./DATA%20STRUCTURES/ARRAYS/SearchElement.c) | ![Output](./DATA%20STRUCTURES/ARRAYS/OUTPUTS/SearchElement.png) |
+| Sort an array such that zero then all negative numbers appear before positive numbers. | [0-+.c](./DATA%20STRUCTURES/ARRAYS/0-+.c) | ![Output](./DATA%20STRUCTURES/ARRAYS/OUTPUTS/0-+.png) |
+| Display array elements except first and last element.  | [NotDisplay1stLast.c](./DATA%20STRUCTURES/ARRAYS/NotDisplay1stLast.c) | ![Output](./DATA%20STRUCTURES/ARRAYS/OUTPUTS/NotDisplay1stLast.png) |
 
 ---
 
@@ -45,6 +47,7 @@ Each program includes its **source code (.c)**, **compiled executable (.exe)**, 
 | Program | Source Code | Output |
 |---------|-------------|--------|
 | Make linked list of 5 nodes and display them | [Insertion.c](./DATA%20STRUCTURES/LINKED%20LIST/Insertion.c) | ![Output](./DATA%20STRUCTURES/LINKED%20LIST/OUTPUTS/Insertion.png) |
+| Insert at the beginning, at the end, before a given position, after a given position, and to display the list. | [InsertionCases.c](./DATA%20STRUCTURES/LINKED%20LIST/InsertionCases.c) | <img src="./DATA%20STRUCTURES/LINKED%20LIST/OUTPUTS/InsertionCases1.png" width="200"/> <img src="./DATA%20STRUCTURES/LINKED%20LIST/OUTPUTS/InsertionCases2.png" width="200"/> <img src="./DATA%20STRUCTURES/LINKED%20LIST/OUTPUTS/InsertionCases3.png" width="200"/> |
 
 ---
 

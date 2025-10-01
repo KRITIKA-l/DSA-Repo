@@ -1,3 +1,5 @@
+// QUESTION :- Write a C program to create a singly linked list by inserting N elements and display the elements of the linked list. 
+
 #include<stdio.h>
 #include<stdlib.h>
 
