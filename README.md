@@ -47,7 +47,7 @@ Each program includes its **source code (.c)**, **compiled executable (.exe)**, 
 | Program | Source Code | Output |
 |---------|-------------|--------|
 | Make linked list of 5 nodes and display them | [Insertion.c](./DATA%20STRUCTURES/LINKED%20LIST/Insertion.c) | ![Output](./DATA%20STRUCTURES/LINKED%20LIST/OUTPUTS/Insertion.png) |
-| Insert at the beginning, at the end, before a given position, after a given position, and to display the list. | [InsertionCases.c](./DATA%20STRUCTURES/LINKED%20LIST/InsertionCases.c) | <div style="display:flex; gap:10px;"><img src="./DATA%20STRUCTURES/LINKED%20LIST/OUTPUTS/InsertionCases1.png" width="200"/><img src="./DATA%20STRUCTURES/LINKED%20LIST/OUTPUTS/InsertionCases2.png" width="200"/><img src="./DATA%20STRUCTURES/LINKED%20LIST/OUTPUTS/InsertionCases3.png" width="200"/></div> |
+| Insert at the beginning, at the end, before a given position, after a given position, and to display the list. | [InsertionCases.c](./DATA%20STRUCTURES/LINKED%20LIST/InsertionCases.c) | <img src="./DATA%20STRUCTURES/LINKED%20LIST/OUTPUTS/InsertionCases1.png" width="200"/> <img src="./DATA%20STRUCTURES/LINKED%20LIST/OUTPUTS/InsertionCases2.png" width="200"/> <img src="./DATA%20STRUCTURES/LINKED%20LIST/OUTPUTS/InsertionCases3.png" width="200"/> |
 
 ---
 
