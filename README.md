@@ -55,5 +55,5 @@ Each program includes its **source code (.c)**, **compiled executable (.exe)**, 
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/YourUsername/YourRepoName.git
-   cd YourRepoName
+   git clone https://https://github.com/KRITIKA-l/DSA-Repo.git
+   cd DSA_Repo
