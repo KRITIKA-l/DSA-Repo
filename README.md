@@ -58,14 +58,14 @@ Each program includes its **source code (.c)**, **compiled executable (.exe)**, 
 | Implement insertion, deletion and display in Circular Queue. | [CircularQueque.c](./DATA%20STRUCTURES/QUEUES/CircularQueque.c) |  |
 
 ### 🔹 TREES
-| Program | Source Code | Output |
-|---------|-------------|--------|
-| Operstions on Binary Search Tree. | [Operations.c](./DATA%20STRUCTURES/TREES/Operations.c) |  |
+| Program | Source Code |
+|---------|-------------|
+| Operstions on Binary Search Tree. | [Operations.c](./DATA%20STRUCTURES/TREES/Operations.c) |  
 
 ### 🔹 MINIPROJECT
-| Program | Source Code | Output |
-|---------|-------------|--------|
-| MusicPLayer Using Doubly Linked List. | [MUSICPLAYER.c](./MINIPROJECT/MUSICPLAYER.c) |  |
+| Program | Source Code |
+|---------|-------------|
+| MusicPLayer Using Doubly Linked List. | [MUSICPLAYER.c](./MINIPROJECT/MUSICPLAYER.c) |  
 
 
 ## ⚙️ How to Run  
