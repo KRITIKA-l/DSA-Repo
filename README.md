@@ -48,8 +48,25 @@ Each program includes its **source code (.c)**, **compiled executable (.exe)**, 
 |---------|-------------|--------|
 | Make linked list of 5 nodes and display them | [Insertion.c](./DATA%20STRUCTURES/LINKED%20LIST/Insertion.c) | ![Output](./DATA%20STRUCTURES/LINKED%20LIST/OUTPUTS/Insertion.png) |
 | Insert at the beginning, at the end, before a given position, after a given position, and to display the list. | [InsertionCases.c](./DATA%20STRUCTURES/LINKED%20LIST/InsertionCases.c) | <img src="./DATA%20STRUCTURES/LINKED%20LIST/OUTPUTS/InsertionCases1.png" width="100"/> <img src="./DATA%20STRUCTURES/LINKED%20LIST/OUTPUTS/InsertionCases2.png" width="100"/> <img src="./DATA%20STRUCTURES/LINKED%20LIST/OUTPUTS/InsertionCases3.png" width="100"/> |
-
+| Operations on Circular Linked List. | [SinglyCircular.c](./DATA%20STRUCTURES/LINKED%20LIST/SinglyCircular.c) |  |
 ---
+
+### 🔹 QUEUES
+| Program | Source Code | Output |
+|---------|-------------|--------|
+| WAP to perform enqueue, dequeue and display operations on a queue. | [Operations.c](./DATA%20STRUCTURES/QUEUES/Operations.c) |  |
+| Implement insertion, deletion and display in Circular Queue. | [CircularQueque.c](./DATA%20STRUCTURES/QUEUES/CircularQueque.c) |  |
+
+### 🔹 TREES
+| Program | Source Code | Output |
+|---------|-------------|--------|
+| Operstions on Binary Search Tree. | [Operations.c](./DATA%20STRUCTURES/TREES/Operations.c) |  |
+
+### 🔹 MINIPROJECT
+| Program | Source Code | Output |
+|---------|-------------|--------|
+| MusicPLayer Using Doubly Linked List. | [MUSICPLAYER.c](./MINIPROJECT/MUSICPLAYER.c) |  |
+
 
 ## ⚙️ How to Run  
 
